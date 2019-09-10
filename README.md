@@ -2,8 +2,7 @@
 
 ## Description
 The code implements an HW component described in VHDL, that given an image in greyscale format, calculates the area of the minimal rectangle that circumscribes
-totally a figure of interest present in the image itself.The term **__'totally circumscribes'__**
-is intended as the rectangle must be the smallest such that all the pixels forming the figure of interest are internal or belonging to the perimeter of the rectangle.
+totally a figure of interest present in the image itself. The term **__'totally circumscribes'__** is intended as the rectangle must be the smallest such that all the pixels forming the figure of interest are internal or belonging to the perimeter of the rectangle.
 <br/>
 The code can be successfully synthesized using **Xilinx Vivado**, has passed all the tests in "post-synthesis functional" and "post-synthesis timing", and can be implemented and passes all the tests in "post-implementation functional" and "post-implementation timing".
 
