@@ -1,6 +1,9 @@
 # VHDL-Image-Analyzer
 
 ## Description
+
+<span style="color:red">Full details about the implemented algorithm and the testing phase can be found in the  **Report.pdf** file</span>
+
 The code implements an HW component described in VHDL, that given an image in greyscale format, calculates the area of the minimal rectangle that circumscribes
 totally a figure of interest present in the image itself. The term **__'totally circumscribes'__** is intended as the rectangle must be the smallest such that all the pixels forming the figure of interest are internal or belonging to the perimeter of the rectangle.
 <br/>
